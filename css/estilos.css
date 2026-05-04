@@ -1,0 +1,77 @@
+
+:root {
+    --rojo-primavera: #e30613; 
+    --gris-oscuro: #333333;
+    --blanco: #ffffff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--gris-oscuro);
+    line-height: 1.6;
+}
+
+.nav-link {
+    color: var(--gris-oscuro);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--rojo-primavera) !important;
+}
+
+.text-red {
+    color: var(--rojo-primavera);
+    font-weight: bold;
+}
+
+.border-red {
+    border-left: 5px solid var(--rojo-primavera);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.footer-primavera {
+    background-color: var(--rojo-primavera);
+    color: var(--blanco);
+}
+
+#red i {
+    transition: transform 0.3s ease;
+}
+
+#red i:hover {
+    transform: scale(1.2);
+}
+
+.img-fluid {
+    transition: transform 0.3s;
+}
+
+.img-fluid:hover {
+    transform: scale(1.02);
+    
+}
+
+.product-card {
+    border-radius: 12px;
+    border: 1px solid #eee;
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(227, 6, 19, 0.1) !important;
+}
+
+.border-red-soft {
+    border-top: 4px solid var(--rojo-primavera) !important;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: contain; 
+}
